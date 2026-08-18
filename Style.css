@@ -1,0 +1,37 @@
+:root {
+    --cor-primaria: #a02099;
+    --cor-primaria-escura: #130987;
+    --cor-destaque:#014c1c;
+    --cor-fundo:#f1e8e8;
+    --cor-branca:#f3f4f6;
+    --cor-borda:#ffffff;
+    --sombra-padrao:#d1d5db;
+    --cor-texto:#000000;
+    --raio-borda: 14px;
+    --largura-maxima: 1100px
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor-texto);;
+    line-height: 1.6;
+    min-height: 100vh;
+        background: linear-gradient(
+        180deg,
+        var(--cor-primaria),
+        var(--cor-primaria-escura)
+    );
+}
+
+header {
+    height: 100px;
+}
